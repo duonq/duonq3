@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 100px;
+    background-color: rgb(248, 243, 233);
+    margin: 0px;
+    padding: 30px 90px;
+}
+.header ul li{
+    display: inline-flex;
+}
+.menu1{
+    float: left;
+}
+.menu1 ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.menu1 ul li a:hover{
+    text-decoration: none;
+    color: coral;
+    background-color: lightblue;
+}
+.menu2{
+    float: right;
+}
+.menu2 ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+.menu2 ul li a:hover{
+    text-decoration: none;
+    color: coral;
+    background-color: lightblue;
+}
+.panner img{
+    width: 100%;
+}
+.sec2{
+    background-color: silver;
+    
+}
+.Nei{
+    margin: 40px 40px;
+}
+.textBold{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* .anh{
+    flex: 1;
+    justify-content: space-evenly;
+    justify-content: space-around;
+} */
+.h1mexico{
+    position: absolute;
+    margin: 120px;
+    text-align: center;
+}
+.h1mexico a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(139, 136, 138,0.4);
+}
+.h1newY{
+    position: absolute;
+    margin: 120px;
+    text-align: center;
+}
+.h1newY a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(139, 136, 138,0.4);
+}
+.h1tokyo{
+    position: absolute;
+    margin: 120px 170px;
+    text-align: center;
+}
+.h1tokyo a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(139, 136, 138,0.4);
+}
+.h1pari{
+    position: absolute;
+    margin: 120px 180px;
+    text-align: center;
+}
+.h1pari a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(139, 136, 138,0.4);
+}
+.h1song{
+    position: absolute;
+    margin: 190px 80px;
+    text-align: center;
+}
+.h1song a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(139, 136, 138,0.4);
+}
+.mexico{
+    width: 100%;
+    padding: 15px;
+ 
+}
+.newyork{
+    width: 100%;
+    padding: 15px;
+   
+}
+.tokyo{
+    width: 100%;
+    padding: 15px;
+   
+}
+.pari{
+    width: 100%;
+    padding: 15px;
+ 
+}
+.song{
+    width: 100%;
+    padding: 15px;
+    height: 510px;
+   
+}
+.textfooter{
+    font-weight: bold;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+p{
+    padding-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fotertext{
+    text-decoration: underline;
+    padding-left: 15px;
+}
+footer{
+    background-color: rgb(212, 209, 203);
+    padding: 15px;
+    padding-bottom: 25px;
+}
