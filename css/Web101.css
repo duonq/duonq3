@@ -2,11 +2,22 @@
     padding: 0;
     margin: 0;
 }
+html{
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
 .header{
-    height: 100px;
+    height: 80px;
+    line-height: 80px;
     background-color: rgb(248, 243, 233);
-    margin: 0px;
-    padding: 30px 90px;
+    padding: 0 90px;
+    z-index: 1;
 }
 .header ul li{
     display: inline-flex;
@@ -14,122 +25,69 @@
 .menu1{
     float: left;
 }
-.menu1 ul li a{
-    color: black;
-    text-decoration: none;
-    padding: 10px 15px;
-}
-.menu1 ul li a:hover{
-    text-decoration: none;
-    color: coral;
-    background-color: lightblue;
-}
 .menu2{
     float: right;
 }
-.menu2 ul li a{
-    text-decoration: none;
+.header ul li a{
     color: black;
-    padding: 10px 15px;
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 16px;
 }
-.menu2 ul li a:hover{
+.header ul li a:hover{
     text-decoration: none;
     color: coral;
     background-color: lightblue;
 }
-.panner img{
+
+/* =========== */
+.sec1 .panner img{
     width: 100%;
 }
-.sec2{
-    background-color: silver;
+.sec1{
+    margin-top: 80px;
     
 }
 .Nei{
-    margin: 40px 40px;
+    margin: 40px;
 }
 .textBold{
     font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-/* .anh{
-    flex: 1;
-    justify-content: space-evenly;
-    justify-content: space-around;
-} */
-.h1mexico{
-    position: absolute;
-    margin: 120px;
-    text-align: center;
+.row > h1 > a{
+    color: white;
+    text-decoration: none;
 }
-.h1mexico a:hover{
+.row > h1 > a:hover
+{
     text-decoration: none;
     cursor: pointer;
+    color: black;
     background-color: rgba(139, 136, 138,0.4);
 }
-.h1newY{
+.same{
     position: absolute;
-    margin: 120px;
     text-align: center;
 }
-.h1newY a:hover{
-    text-decoration: none;
-    cursor: pointer;
-    background-color: rgba(139, 136, 138,0.4);
+.place{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.h1tokyo{
-    position: absolute;
-    margin: 120px 170px;
-    text-align: center;
-}
-.h1tokyo a:hover{
-    text-decoration: none;
-    cursor: pointer;
-    background-color: rgba(139, 136, 138,0.4);
-}
-.h1pari{
-    position: absolute;
-    margin: 120px 180px;
-    text-align: center;
-}
-.h1pari a:hover{
-    text-decoration: none;
-    cursor: pointer;
-    background-color: rgba(139, 136, 138,0.4);
-}
+
 .h1song{
-    position: absolute;
     margin: 190px 80px;
-    text-align: center;
 }
-.h1song a:hover{
-    text-decoration: none;
-    cursor: pointer;
-    background-color: rgba(139, 136, 138,0.4);
-}
-.mexico{
+.same_img{
     width: 100%;
     padding: 15px;
- 
 }
-.newyork{
-    width: 100%;
-    padding: 15px;
-   
-}
-.tokyo{
-    width: 100%;
-    padding: 15px;
-   
-}
-.pari{
-    width: 100%;
-    padding: 15px;
- 
-}
+
 .song{
-    width: 100%;
-    padding: 15px;
     height: 510px;
    
 }
